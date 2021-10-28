@@ -1,0 +1,56 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background: whitesmoke;
+}
+
+.square_holder{
+
+    margin:auto;
+    margin-top: 50px;
+    width: 200px;
+    height: fit-content;
+    background: white;
+    grid-column: 3;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5px;
+    border-radius: 5px;
+    border:1px solid gray;
+    cursor: pointer;
+
+}
+
+.square_holder_row{
+
+    width: 180px;
+    display: flex;
+
+}
+
+.square{
+    border: 2px solid grey;
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 25px;
+    box-sizing: border-box;
+    min-width: 33.3%;
+    cursor: pointer;
+}
+
+.active_1{
+
+    background: red;
+
+}
+
+.active_2{
+
+    background: blue;
+
+}
